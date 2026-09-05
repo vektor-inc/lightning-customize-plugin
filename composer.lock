@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2293a46c501333f121c4b29756f3275",
+    "content-hash": "32064eea952451d1446f94edce963946",
     "packages": [
         {
             "name": "vektor-inc/vk-wp-unit-test-tools",
@@ -405,5 +405,8 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "platform-overrides": {
+        "php": "7.4"
+    },
+    "plugin-api-version": "2.6.0"
 }
