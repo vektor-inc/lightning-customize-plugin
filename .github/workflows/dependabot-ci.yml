@@ -33,7 +33,7 @@ jobs:
           php-version: '7.4'
 
       - name: Install npm packages
-        run: npm install
+        run: npm ci
 
       - name: Install Composer packages
         run: composer install --no-interaction --prefer-dist
